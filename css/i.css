@@ -1,0 +1,23 @@
+#box_1 {
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+#box_a{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+}
+#box_2 {
+	/*fixed permite fijar el elmento y que
+	 no se pueda a pesar de hacer scroll*/
+	position: fixed;
+	/*con fixed, aligual que con absolute, podemos
+	darle tamaño y altura a los elementos dandole límites
+	de posición con las propiedades bottom,left,rigth,top*/
+	bottom: 0;
+	left: 0;
+	right: 0;
+  top:95%;
+  background: #44accf;
+}

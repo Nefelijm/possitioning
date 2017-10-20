@@ -1,0 +1,9 @@
+*{
+  font-family: monospace;
+}
+body{
+  background-color: rgb(227, 227, 211);
+}
+a{
+  display: block;
+}
